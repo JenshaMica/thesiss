@@ -1,6 +1,6 @@
 // components/LoginModal.jsx
 import React, { useState } from "react";
-import "./Login.css";
+import "../componentDesign/Login.css";
 
 const LoginModal = ({ onClose }) => {
   const [isLogin, setIsLogin] = useState(true);
